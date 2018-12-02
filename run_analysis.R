@@ -36,3 +36,6 @@ select <- total[ , grep('mean\\(\\)|std\\(\\)|activity|subject', names(total) ) 
 # Calculate mean for selected columns by activity_type and subject
 summary <- setDT(select)[, lapply(.SD, mean), by = list(activity_type, subject) ]
 summary <- summary[ order(  summary[ , subject], summary[ , activity_type] ) ]
+
+# Write output
+write.table(summary, file = "./tidydata.txt", row.names = FALSE, col.names = TRUE)
