@@ -26,7 +26,10 @@ The dataset includes the following files:
 
 The resulting data frame is composed of 180 observations (rows).
 There is a total of 30 observations for each subject studied. In total, 6 subjects were observed.
+
 •	Column 1 "subject": is a numeric identifier of the subject who performed the activity
+
 •	Column 2 "activity_type": identifies the type of activity performed by the subjects. It's a factor variable and there are 6 possible levels: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS.
+
 •	Columns 3 to 68: these are all numeric variables and represent measurements taken using the accelerometer and gyroscope 3-axial when the subject moved. Only the measurements on the mean and standard deviation have been included.
 
