@@ -3,12 +3,15 @@ Project
 
 This document is a codebook that provides description of the performed data clean up.
 The Data Source
+
 Downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 Description of the dataset:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The data
+
 The dataset includes the following files:
 'README.txt'
 'features_info.txt': Shows information about the variables used on the feature vector.
